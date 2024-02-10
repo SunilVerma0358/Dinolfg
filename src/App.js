@@ -29,11 +29,11 @@ function App() {
     return ( <
         >
         <
-        div > { " " } {
+        > {
             Loader ? ( <
-                div > { " " } <
+                > { " " } <
                 Preloader / > { " " } <
-                /div>
+                />
             ) : ( <
                 div className = "bg-[#09655A]" > { " " } <
                 HeroSection / >
@@ -51,7 +51,7 @@ function App() {
                 /div>
             )
         } { " " } <
-        /div>{" "} <
+        />{" "} <
         />
     );
 }
