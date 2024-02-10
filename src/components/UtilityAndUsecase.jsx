@@ -69,7 +69,7 @@ const UtilityAndUsecase = () => {
       <div className="w-full h-[240px] absolute top-0 right-0 left-0 z-[-1]">
         <img className="w-full" src={UtilityAndTop} alt="Top Ellipse" />
       </div>
-      <div className="absolute bottom-[20%] right-0 max-w-[250px] xl:max-w-[300px] z-[-1] xl:z-0">
+      <div className="absolute bottom-[20%] right-0 max-w-[250px] xl:max-w-[300px] z-[-1]">
         <img className="w-full" src={UnityleRight} alt="Right" />
       </div>
     </div>
