@@ -13,6 +13,7 @@ import Tokenomicsleft from "../assets/image/TokenimcsLeftImg.webp";
 import Denosar from "../assets/image/donasor.webp";
 import Tokenomicsbottom from "../assets/image/UntiyImg.webp";
 import TokenomicsRight from "../assets/image/UnitlityRIght.webp";
+import TokenomicsMainEllipse from "../assets/image/TokenomicsMainEllips.webp";
 const Tokenomics = () => {
   return (
     <div id="Tokenomic" className="relative bg-[#0a4740] py-48 md:py-60 z-10">
@@ -125,6 +126,9 @@ const Tokenomics = () => {
       </div>
       <div className="absolute bottom-[2%] right-[3%] w-[100px] sm:w-[180px] ">
         <img src={TokenomicsRight} alt="unltuy" />
+      </div>
+      <div className="absolute top-[10%] xl:top-[8%] right-0 w-[200px] sm:w-[255px] lg:w-[400px] xl:w-[500px] z-[-1] ">
+        <img src={TokenomicsMainEllipse} alt="unltuy" />
       </div>
     </div>
   );
