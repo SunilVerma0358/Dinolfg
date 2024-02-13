@@ -4,7 +4,7 @@ import RightCycle from "../assets/image/cycleRight.webp";
 import Bike from "../assets/image/Bike.webp";
 import UnityleRight from "../assets/image/UnitlityRIght.webp";
 import Unitylebottom from "../assets/image/UnityleBottom.webp";
-import TokenomicsLeftEllipse from "../assets/image/left-ellipse.png";
+import TokenomicsLeftEllipse from "../assets/image/left-ellipse.webp";
 const UtilityAndUsecase = () => {
   return (
     <div className="bg-[#0a4740] relative z-10 ">
