@@ -8,7 +8,7 @@ import TokenomicsLeftEllipse from "../assets/image/left-ellipse.webp";
 const UtilityAndUsecase = () => {
   return (
     <div className="bg-[#0a4740] relative z-10 ">
-      <div className=" max-w-[1140px] px-3 container mx-auto pt-24 sm:pt-28 md:pt-36 pb-24 sm:pb-28 md:pb-36">
+      <div className=" max-w-[1140px] px-3 container mx-auto pt-24 sm:pt-28 md:pt-40 pb-24 sm:pb-28 md:pb-36">
         <h2 className=" font-Chewy font-normal text-4xl sm:text-5xl md:text-[64px] text-white leading-[60px] md:leading-[83.63px] pt-5 text-center  ">
           Utility and Usecase
         </h2>
@@ -36,10 +36,10 @@ const UtilityAndUsecase = () => {
                 <span className="text-[#FB5352] font-bold">O</span>
               </p>
             </div>
-            <div className="w-full md:w-3/12 px-3   ">
-              <div className="max-w-[200px] sm:max-w-[255px] lg:max-w-[255px] max-h-full sm:max-h-[323px] md:absolute bottom-[-0%] right-[24px] mx-auto md:mx-0">
+            <div className="w-full md:w-3/12 px-3">
+              <div className="max-w-[200px] sm:max-w-[255px] lg:max-w-[255px] max-h-full sm:max-h-[323px] md:absolute bottom-[-0%] right-[24px] mx-auto md:mx-0 z-[-1]">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full md:opacity-25 lg:opacity-100"
                   src={RightCycle}
                   alt="RightCycle"
                 />
@@ -49,7 +49,7 @@ const UtilityAndUsecase = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="border border-white rounded-[20px] bg-[#09655A] p-[31px_12px] md:p-[95px_27px] max-w-[1014px] mt-10 sm:mt-20 mx-auto md:mt-32 "
+          className="border border-white rounded-[20px] bg-[#09655A] p-[31px_12px] md:p-[95px_27px] max-w-[1014px] mt-10 sm:mt-20 mx-auto md:mt-32"
         >
           <div className="flex flex-row flex-wrap -mx-3">
             <div className=" w-full md:w-3/12 px-3 md:relative">
@@ -69,7 +69,7 @@ const UtilityAndUsecase = () => {
       <div className="w-full h-[240px] absolute top-0 right-0 left-0 z-[-1]">
         <img className="w-full" src={UtilityAndTop} alt="Top Ellipse" />
       </div>
-      <div className="absolute bottom-[20%] right-0 max-w-[250px] xl:max-w-[300px] z-[-1]">
+      <div className="absolute bottom-[30%] right-0  xl:right-[1%] max-w-[250px] xl:max-w-[300px] z-[-1]">
         <img className="w-full" src={UnityleRight} alt="Right" />
       </div>
       <div className="absolute top-[-7%] left-0 w-[200px] sm:w-[255px] lg:w-[400px] xl:w-[500px] z-[-1] ">

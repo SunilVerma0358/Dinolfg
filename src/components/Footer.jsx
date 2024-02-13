@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="relative bg-[#0A4740] z-10">
-      <div className="container mx-auto px-3 max-w-[1140px] pt-20 pb-56 xl:pb-64">
+      <div className="container mx-auto px-3 max-w-[1140px] pt-10 md:pt-20 pb-56 xl:pb-64">
         <div className="mx-auto max-w-[324px] max-h-[76px] ">
           <h2 className=" font-Chewy font-normal text-white text-4xl sm:text-[64px] leading-[83.63px] text-center">
             <span className="text-[#FBA11D] ff_lucky  drop-shadow-[0px_2px_0px#fff]">
@@ -79,7 +79,7 @@ const Footer = () => {
           alt="footerImg"
         />
       </div>
-      <div className=" absolute bottom-[2%] right-[2%] max-w-[150px] animate-movebike2">
+      <div className=" absolute bottom-[3.5%] right-[2%] max-w-[150px] animate-movebike2 ">
         <img
           src={FooterCycle}
           alt="footerCycles

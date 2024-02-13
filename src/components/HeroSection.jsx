@@ -18,7 +18,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div data-aos="fade-up" className=" w-full sm:w-6/12 px-3">
-            <h1 className="ff_lucky font-normal text-[120px] md:text-[150px] lg:text-[175px] leading-[120px] md:leading-[166px] max-w-[300px] sm:max-w-[398px] mx-auto sm:mx-0">
+            <h1 className="ff_lucky font-normal text-[120px] md:text-[150px] lg:text-[175px] leading-[120px] md:leading-[166px] max-w-[300px] sm:max-w-[398px] mx-auto sm:mx-0 text-center">
               <span className="text-[#FBA11D] drop-shadow-[0px_6px_0px#000]">
                 D
               </span>

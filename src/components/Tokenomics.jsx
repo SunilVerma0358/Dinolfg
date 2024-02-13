@@ -14,7 +14,6 @@ import Denosar from "../assets/image/donasor.webp";
 import Tokenomicsbottom from "../assets/image/UntiyImg.webp";
 import TokenomicsRight from "../assets/image/UnitlityRIght.webp";
 import TokenomicsMainEllipse from "../assets/image/TokenomicsMainEllips.webp";
-
 const Tokenomics = () => {
   return (
     <div id="Tokenomic" className="relative bg-[#0a4740] py-48 md:py-60 z-10">
