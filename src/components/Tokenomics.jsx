@@ -14,11 +14,12 @@ import Denosar from "../assets/image/donasor.webp";
 import Tokenomicsbottom from "../assets/image/UntiyImg.webp";
 import TokenomicsRight from "../assets/image/UnitlityRIght.webp";
 import TokenomicsMainEllipse from "../assets/image/TokenomicsMainEllips.webp";
+
 const Tokenomics = () => {
   return (
     <div id="Tokenomic" className="relative bg-[#0a4740] py-48 md:py-60 z-10">
       <div className="max-w-[1135px] mx-auto px-3 container pb-28 ">
-        <h2 className=" font-Chewy font-normal text-white text-[64px] leading-[131%] text-center mb-5 sm:mb-28 md:mb-36">
+        <h2 className=" font-Chewy font-normal text-white text-[36px] sm:text-[64px] leading-[131%] text-center mb-5 sm:mb-28 md:mb-36">
           Tokenomics
         </h2>
         <div className="max-w-[589px] mx-auto relative ">

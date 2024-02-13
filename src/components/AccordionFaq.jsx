@@ -27,7 +27,7 @@ function Icon({ id, open }) {
   );
 }
 const AccordionFaq = () => {
-  const [open, setOpen] = React.useState(1);
+  const [open, setOpen] = React.useState(0);
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <div id="Faq" className=" relative bg-[#0A4740] z-10 overflow-hidden ">
@@ -124,24 +124,6 @@ const AccordionFaq = () => {
             </AccordionHeader>
             <AccordionBody className="font-Balsamiq font-normal text-white text-[13px] sm:text-base  leading-[160%] max-w-[880px] pt-2 pb-0 ">
               Maecenas laoreet, sapien vel cursus ultricies?
-            </AccordionBody>
-          </Accordion>
-          <Accordion
-            data-aos="fade-down"
-            className=" border-white border mb-3 sm:mb-6 rounded-[40.5px] py-4 px-5 bg-[#09655A]"
-            open={open === 6}
-            icon={<Icon id={6} open={open} />}
-          >
-            <AccordionHeader
-              onClick={() => handleOpen(6)}
-              className="  font-Balsamiq font-normal text-white text-base sm:text-lg md:text-xl py-0 text-start leading-[130%]"
-            >
-              Maecenas laoreet, sapien vel cursus ultricies?
-            </AccordionHeader>
-            <AccordionBody className="font-Balsamiq font-normal text-[13px] sm:text-base text-white leading-[160%] max-w-[880px] pt-2 pb-0 ">
-              En Exclusive Games, ofrecemos experiencias únicas y
-              personalizadas, respaldadas por más de 15 años de dedicación al
-              desarrollo de multiplataformas para juegos de azar.
             </AccordionBody>
           </Accordion>
         </div>

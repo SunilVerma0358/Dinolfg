@@ -10,7 +10,7 @@ const Roadmap = () => {
       />
       <div className="sm:hidden block absolute sm:left-[70px] left-[47px] bottom-0 top-[10%] h-[85%] w-[15px] border-l-[11px] border-dashed border-[#0a4740]"></div>
       <div className=" max-w-[991px] px-3 mx-auto pb-[60px]">
-        <h2 className=" text-[64px] text-white text-center font-Chewy leading-[83px]">
+        <h2 className=" font-Chewy font-normal text-[36px] sm:text-[64px] text-white text-center  leading-[83px]">
           Roadmap
         </h2>
         <div

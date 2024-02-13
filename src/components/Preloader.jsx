@@ -7,7 +7,7 @@ const Preloader = () => {
     "
       >
         <div className="flex items-center gap-2">
-          <p className=" font-Chewy text-white text-[60px] font-bold  tracking-wide pr-3">
+          <p className=" font-Chewy text-white text-[40px] sm:text-[60px] font-bold  tracking-wide pr-3">
             LOADING
           </p>
           <span className="text-[60px] text-white animate-proloader  font-bold duration-500 delay-150">

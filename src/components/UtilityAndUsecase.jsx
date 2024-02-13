@@ -4,7 +4,7 @@ import RightCycle from "../assets/image/cycleRight.webp";
 import Bike from "../assets/image/Bike.webp";
 import UnityleRight from "../assets/image/UnitlityRIght.webp";
 import Unitylebottom from "../assets/image/UnityleBottom.webp";
-
+import TokenomicsLeftEllipse from "../assets/image/left-ellipse.png";
 const UtilityAndUsecase = () => {
   return (
     <div className="bg-[#0a4740] relative z-10 ">
@@ -71,6 +71,9 @@ const UtilityAndUsecase = () => {
       </div>
       <div className="absolute bottom-[20%] right-0 max-w-[250px] xl:max-w-[300px] z-[-1]">
         <img className="w-full" src={UnityleRight} alt="Right" />
+      </div>
+      <div className="absolute top-[-7%] left-0 w-[200px] sm:w-[255px] lg:w-[400px] xl:w-[500px] z-[-1] ">
+        <img src={TokenomicsLeftEllipse} alt="unltuy" />
       </div>
     </div>
   );
