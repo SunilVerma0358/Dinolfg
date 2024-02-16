@@ -38,7 +38,7 @@ const AccordionFaq = () => {
           </h2>
           <Accordion
             data-aos="fade-down"
-            className="border border-white rounded-[40.5px] py-4 px-5 mb-3 sm:mb-6 bg-[#09655A]"
+            className="border border-white rounded-[40.5px] py-4 px-5 sm:px-7 mb-3 sm:mb-6 bg-[#09655A]"
             open={open === 1}
             icon={<Icon id={1} open={open} />}
           >
@@ -56,7 +56,7 @@ const AccordionFaq = () => {
           </Accordion>
           <Accordion
             data-aos="fade-down"
-            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6  py-4 px-5  bg-[#09655A] overflow-hidden"
+            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6  py-4 px-5 sm:px-7  bg-[#09655A] overflow-hidden"
             open={open === 2}
             icon={<Icon id={2} open={open} />}
           >
@@ -75,7 +75,7 @@ const AccordionFaq = () => {
           </Accordion>
           <Accordion
             data-aos="fade-down"
-            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6  py-4 px-5 bg-[#09655A] "
+            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6  py-4 px-5 sm:px-7 bg-[#09655A] "
             open={open === 3}
             icon={<Icon id={3} open={open} />}
           >
@@ -94,7 +94,7 @@ const AccordionFaq = () => {
           </Accordion>
           <Accordion
             data-aos="fade-down"
-            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6 py-4 px-5  bg-[#09655A]"
+            className=" border-white rounded-[40.5px] border mb-3 sm:mb-6 py-4 px-5 sm:px-7  bg-[#09655A]"
             open={open === 4}
             icon={<Icon id={4} open={open} />}
           >
@@ -112,7 +112,7 @@ const AccordionFaq = () => {
           </Accordion>
           <Accordion
             data-aos="fade-down"
-            className=" border-white border mb-3 sm:mb-6 rounded-[40.5px] py-4 px-5  bg-[#09655A]"
+            className=" border-white border mb-3 sm:mb-6 rounded-[40.5px] py-4 px-5 sm:px-7  bg-[#09655A]"
             open={open === 5}
             icon={<Icon id={5} open={open} />}
           >

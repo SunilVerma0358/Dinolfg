@@ -1,5 +1,5 @@
 import React from "react";
-import Roadmapimg from "../assets/image/RoadMapimg.webp";
+import Roadmapimg from "../assets/image/RoadMapimgOne.webp";
 const Roadmap = () => {
   return (
     <div className=" bg-[#09655A] relative z-[2] overflow-hidden" id="Roadmap">

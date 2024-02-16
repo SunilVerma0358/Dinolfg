@@ -17,7 +17,7 @@ import TokenomicsMainEllipse from "../assets/image/TokenomicsMainEllips.webp";
 const Tokenomics = () => {
   return (
     <div id="Tokenomic" className="relative bg-[#0a4740] py-48 md:py-60 z-10">
-      <div className="max-w-[1135px] mx-auto px-3 container pb-28 ">
+      <div className="max-w-[1135px] mx-auto px-3 container pb-12 sm:pb-28 ">
         <h2 className=" font-Chewy font-normal text-white text-[36px] sm:text-[64px] leading-[131%] text-center mb-5 sm:mb-28 md:mb-36">
           Tokenomics
         </h2>
@@ -27,13 +27,53 @@ const Tokenomics = () => {
             src={TokenomicsMainImg}
             alt="img"
           />
-          <div className="max-w-[150px] mx-auto  sm:hidden animate-bounce2 ">
-            <img className="w-full" src={TokenomicsImgFull} alt="Img" />
+
+          <div className="max-w-[200px] mx-auto  sm:hidden pt-6  ">
+            <img
+              className="w-full animate-bounce2"
+              src={TokenomicsImgFull}
+              alt="Img"
+            />
+          </div>
+          <div className="sm:hidden border-dashed border-[2px] py-4 px-5 rounded-md border-[#FBA11D] mt-5">
+            <h3 className="font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl lg:text-[32px] text-[#FBA11D] leading-[25.4px] md:leading-[38.4px] text-center ">
+              333,333,333
+            </h3>
+            <p className=" font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl text-white leading-[17px] sm:leading-[25.4px] md:leading-[38.4px] text-center pt-1 ">
+              Supply
+            </p>
+          </div>
+          <div className="sm:hidden border-dashed border-[2px] py-4 px-5 rounded-md border-[#23AAAC] mt-4">
+            <h3 className="font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl lg:text-[32px] text-[#23AAAC] leading-[25.4px] md:leading-[38.4px] text-center">
+              95% Uniswa
+              <span className="block">5% Marketing</span>
+            </h3>
+            <p className=" font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl text-white leading-[25.4px] md:leading-[38.4px] pt-1 text-center ">
+              Allocation
+            </p>
+          </div>
+          <div className="sm:hidden border-dashed border-[2px] py-4 px-5 rounded-md border-[#D45B07] mt-4">
+            {" "}
+            <h3 className="font-Balsamiq font-normal text-lg md:text-2xl lg:text-[32px] text-[#D45B07] leading-[25.4px] md:leading-[38.4px] pt-1 sm:pt-4 text-center">
+              No Tax
+            </h3>
+          </div>
+          <div className="sm:hidden border-dashed border-[2px] py-4 px-5 rounded-md border-[#FB5352] mt-4">
+            {" "}
+            <h3 className="font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl lg:text-[32px] text-[#FB5352] leading-[25.4px] md:leading-[38.4px] text-center ">
+              No Mint Function
+            </h3>
+          </div>
+          <div className="sm:hidden border-dashed border-[2px] py-4 px-5 rounded-md border-[#8EC627] mt-4">
+            {" "}
+            <h3 className="font-Balsamiq font-normal text-lg sm:text-xl md:text-2xl lg:text-[32px] text-[#8EC627] leading-[25.4px] md:leading-[38.4px] text-center">
+              Liquidity lock for 1 year
+            </h3>
           </div>
           <div className=" hidden sm:block max-w-[90px] lg:max-w-[133px] max-h-[157px] mx-auto absolute top-[-40%] md:top-[-25%] xl:top-[-18%] left-[43%] lg:left-[39%] animate-bounce2">
             <img className="w-full" src={TaddayBira} alt="taddybirea" />
           </div>
-          <div className=" absolute top-[25%] sm:top-[10%] -left-2 sm:left-[-1%] md:left-[-14%] lg:left-[-33%] xl:left-[-45%] inline-flex items-center gap-2 sm:gap-3 lg:gap-4 xl:gap-6">
+          <div className=" absolute top-[25%] sm:top-[10%] -left-2 sm:left-[-1%] md:left-[-14%] lg:left-[-33%] xl:left-[-45%] hidden sm:inline-flex items-center gap-2 sm:gap-3 lg:gap-4 xl:gap-6">
             <div>
               <h3 className="font-Balsamiq font-normal text-[15px] sm:text-xl md:text-2xl lg:text-[32px] text-[#FBA11D] leading-[25.4px] md:leading-[38.4px] ">
                 333,333,333
@@ -48,7 +88,7 @@ const Tokenomics = () => {
               alt="first"
             />
           </div>
-          <div className="absolute bottom-[-35%] md:bottom-[-34%] lg:bottom-[-15%] left-[5%] md:left-[-5%] lg:left-[-25%] inline-flex items-center gap-4 xl:gap-6">
+          <div className="absolute bottom-[-35%] md:bottom-[-34%] lg:bottom-[-15%] left-[5%] md:left-[-5%] lg:left-[-25%] hidden sm:inline-flex items-center gap-4 xl:gap-6">
             <div>
               <h3 className="font-Balsamiq font-normal text-[15px] sm:text-xl md:text-2xl lg:text-[32px] text-[#23AAAC] leading-[25.4px] md:leading-[38.4px] text-end">
                 95% Uniswa
@@ -64,13 +104,13 @@ const Tokenomics = () => {
               alt="first"
             />
           </div>
-          <div className="mx-auto absolute bottom-[-52%] sm:bottom-[-60%] md:bottom-[-52%] lg:bottom-[-35%] left-[43%]">
+          <div className="hidden sm:block mx-auto absolute bottom-[-52%] sm:bottom-[-60%] md:bottom-[-52%] lg:bottom-[-35%] left-[43%]">
             <img className="mx-auto h-[40px]" src={NoTax} alt="first" />
             <h3 className="font-Balsamiq font-normal text-xl md:text-2xl lg:text-[32px] text-[#D45B07] leading-[25.4px] md:leading-[38.4px] pt-1 sm:pt-4">
               No Tax
             </h3>
           </div>
-          <div className="absolute right-[-2px] md:right-[-14%] lg:right-[-33%] bottom-[-19%] sm:bottom-[-31%] md:bottom-[-22%] lg:bottom-[-11%] inline-flex items-center gap-2 sm:gap-4 xl:gap-6">
+          <div className="absolute right-[-2px] md:right-[-14%] lg:right-[-33%] bottom-[-19%] sm:bottom-[-31%] md:bottom-[-22%] lg:bottom-[-11%] hidden sm:inline-flex items-center gap-2 sm:gap-4 xl:gap-6">
             <img
               className="h-[40px] sm:h-[80px] md:h-[105px]"
               src={NoMint}
@@ -80,7 +120,7 @@ const Tokenomics = () => {
               No Mint Function
             </h3>
           </div>
-          <div className="absolute right-[-1%] sm:right-[-4%] md:right-[-14%] lg:right-[-37%] xl:right-[-47%] top-[27%] sm:top-[10%] lg:top-[14%] inline-flex items-center gap-2 lg:gap-4 xl:gap-6 ">
+          <div className="absolute right-[-1%] sm:right-[-4%] md:right-[-14%] lg:right-[-37%] xl:right-[-47%] top-[27%] sm:top-[10%] lg:top-[14%] hidden sm:inline-flex items-center gap-2 lg:gap-4 xl:gap-6 ">
             <img
               className="h-[40px] sm:h-[60px] md:h-[105px]"
               src={Liquidity}
