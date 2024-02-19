@@ -3,10 +3,6 @@
         scroll-behavior: smooth;
     }
     
-    .bg-size {
-        background-size: 100% 100%;
-    }
-    
     @font-face {
         font-family: "lucky";
         src: url(../src/assets/font/LuckyDino.otf);
@@ -19,5 +15,11 @@
     @media (max-width:1024px) {
         .overflow {
             overflow: hidden;
+        }
+    }
+    
+    @media (min-width:1024px) {
+        .bg-size {
+            background-size: 100% 100% !important;
         }
     }

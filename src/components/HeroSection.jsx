@@ -6,7 +6,7 @@ import cycleImg from "../assets/image/cycleRight.webp";
 import cycle from "../assets/image/Bike.webp";
 const HeroSection = () => {
   return (
-    <div className="bg-[url(../src/assets/image/HeroSectionBg.webp)] bg-no-repeat max-sm:bg-cover bg-size bg-center  h-screen  relative z-10 overflow-hidden">
+    <div className="bg-[url(../src/assets/image/HeroSectionBg.webp)] bg-no-repeat max-lg:bg-cover bg-size bg-center  h-screen  relative z-10 overflow-hidden">
       <div className="pt-7">
         <DinolfgNav />
       </div>
